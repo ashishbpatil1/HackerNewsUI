@@ -1,6 +1,11 @@
 <app-loader [isLoading]="isLoading"></app-loader>
 
 <div class="container mt-4">
+  <div class="mb-3">
+    <input type="text" class="form-control" [(ngModel)]="searchQuery" placeholder="Search stories..." (keyup)="searchStories()">
+    <button class="btn btn-primary mt-2" (click)="searchStories()">Search</button>
+  </div>
+
     <table class="table table-striped table-bordered table-hover">
       <thead>
         <tr>
