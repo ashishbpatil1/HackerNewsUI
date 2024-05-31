@@ -1,0 +1,46 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+/.vs/HackerNewsUI/FileContentIndex/16edc124-060e-4a71-bd2e-35658f274a65.vsidx
+/.vs/HackerNewsUI/FileContentIndex/fe4964ad-398b-4996-9ad0-9a1c84f6479c.vsidx
+/.vs/HackerNewsUI/FileContentIndex/324ca201-8df7-40c0-a841-7b635b560788.vsidx
+/.vs/HackerNewsUI/FileContentIndex
