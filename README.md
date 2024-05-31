@@ -15,7 +15,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 2. **Install Dependencies:**
   Run `npm install` to install all dependent packages.
 
-3.**Build the Application:**
+3. **Build the Application:**
   Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
   
 4. **Run the Application:** 
@@ -27,14 +27,20 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Features
 **Newest Stories List:** Displays the latest HackerNews stories.
+
 **Story Links:** Each story includes a link to the full article.
+
 **Pagination:** Supports pagination to navigate through stories.
+
 **Loading Indicator:** Shows a loading indicator while fetching data.
 
 ## Project Structure
 **src/app:** Contains the main application components and services.
+
 **src/app/story-list:** The component for displaying the list of stories.
+
 **src/app/story.service.ts:** The service for fetching stories from the API.
+
 **src/app/story.model.ts:** The model represents a story.
 
 ## Configuration
