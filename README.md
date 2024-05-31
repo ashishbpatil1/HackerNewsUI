@@ -32,6 +32,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 **Pagination:** Supports pagination to navigate through stories.
 
+**Search:** Allows users to search for stories by title.
+
 **Loading Indicator:** Shows a loading indicator while fetching data.
 
 ## Project Structure
